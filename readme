@@ -1,0 +1,28 @@
+Configurar Ambiente Virtual
+    python -m venv nome_do_ambiente
+    nome_do_ambiente\Scripts\activate
+
+
+Instalar dependencias
+    pip install -r requirements.txt
+
+
+Migrações
+    python manage.py makemigrations
+    python manage.py migrate
+
+
+Iniciar Servidor
+    python manage.py runserver
+
+
+
+Atualizar arquivo requirements
+    1 - Excluir arquivo requirements
+    2 - pip freeze > requirements.txt
+    3 - pip install -r requirements.txt
+
+
+
+
+
